@@ -1,0 +1,48 @@
+/* CSS Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: cadetblue;
+    padding: 32px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+#container {
+    background-color: purple;
+    padding: 32px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.item {
+    margin: 12px;
+    padding: 12px;
+    height: 64px;
+    background-color: yellow;
+}
+
+.retangulo {
+    width: 96px;
+}
+
+.quadrado {
+    width: 64px;
+}
+
+.circulo {
+    border-radius: 50%;
+    width: 64px;
+}
